@@ -1,8 +1,8 @@
 import unittest
 import random
 from bubble_sort_algorithm import bubble_sort
+from selection_sort_algorithm import selection_sort
 # from quick_sort_algorithm import quick_sort
-# from selection_sort_algorithm import selection_sort
 # from insertion_sort_algorithm import insertion_sort
 
 
@@ -11,7 +11,7 @@ class TestCases(unittest.TestCase):
     Change the name of algorithm in method setUp if you don't want to test bubble sort algorithm.
     """
     def setUp(self):
-        self.sort_name = bubble_sort
+        self.sort_name = selection_sort
 
     def test_with_int_elements(self):
         """
