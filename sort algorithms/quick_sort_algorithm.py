@@ -1,6 +1,6 @@
 """
 This file is containing two quick_sort functions.
-quck_sort_цшер_снсду is needed because its example makes it easier to understand the algorithm
+quck_sort_with_cycle is needed because its example makes it easier to understand the algorithm
 And quick_sort it's a recommended to use in real programs.
 Quick sort is a recursive sorting algorithm that sorts a list with asymptotic O (n ^ 2) worst case but O (logn) on average case.
 """
