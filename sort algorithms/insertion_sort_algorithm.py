@@ -8,7 +8,7 @@ def insertion_sort(value: list) -> list:
     """
     This function sort python list using the insertion sort algorithm.
     Insertion sort algorithm has asymptotic like O(n^2) in the worst.
-    :param value: input list
+    :param value: input list  with any python types
     :return: new list
     """
     # check type of input value
