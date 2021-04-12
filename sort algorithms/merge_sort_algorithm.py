@@ -2,7 +2,7 @@
 This file is realizing two functions:
 merge combine two lists into one
 and merge sort sort python with merge sort algorithm.
-Merge sort is had asymptotic O(logn) in worst.
+Merge sort is had asymptotic O(n*logn) in worst.
 Ans it's a recursive sort algorithm.
 """
 
