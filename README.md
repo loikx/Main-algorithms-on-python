@@ -30,7 +30,7 @@ This is in the merge_sort_algorithm.py
 ### 6.[Tests file](https://github.com/loikx/Main-algorithms-on-python/blob/main/sort%20algorithms/tests_for_sort_algorithm.py)
 >This file is contained test cases for sort algorithms.
 /sort algorithms/tests_for_sort_algorithm.py
-If you want to test sort algorithm that you write or me realize
+If you want to test sort algorithm that you write or me realized
 >>1)Open tests_for_sort_algorithm.py file
 >>>2)Import algorithm that you want to test
 >>>>3)Change param sort_name in setUp method
