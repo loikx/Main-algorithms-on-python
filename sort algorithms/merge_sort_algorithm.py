@@ -1,13 +1,13 @@
 """
-This file is realizing two functions:
-merge combine two lists into one
-and merge sort sort python with merge sort algorithm.
+This file is contained two functions:
+_merge that combine two lists into one
+and merge_sort that sort array with merge sort algorithm.
 Merge sort is had asymptotic O(n*logn) in worst.
-Ans it's a recursive sort algorithm.
+p/s it's a recursive sort algorithm.
 """
 
 
-def merge(left_list: list, right_list: list) -> list:
+def _merge(left_list: list, right_list: list) -> list:
     """
     This function is realizing a merge of two sorted lists.
     :param left_list: left side of the list
@@ -51,8 +51,8 @@ def merge(left_list: list, right_list: list) -> list:
 
 def merge_sort(value: list) -> None:
     """
-    This function sort array with merge sort.
-    Merge sort is had asymptotic O(logn) in worst.
+    This function sort array using merge sort.
+    Merge sort is had asymptotic O(n*logn) in worst.
     :param value: input python list with any elements
     :return: None
     """
@@ -81,7 +81,7 @@ def merge_sort(value: list) -> None:
     merge_sort(right_list)
 
     # and merge the sorted lists into one
-    tmp_list = merge(left_list, right_list)
+    tmp_list = _merge(left_list, right_list)
 
     # and then we need to rewrite sort list to the initial
     for i in range(len(value)):

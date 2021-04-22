@@ -1,7 +1,7 @@
 """
-This file is containing translate roman numerals to arabic algorithm.
-This algorithm is working with time O(n).
-But only for nums into 1 <= n <= 3000 range.
+This file is contained translate roman numerals to arabic algorithm.
+This algorithm is working with O(n) asymptotic.
+It work only for nums into 1 <= n <= 3000 range.
 """
 
 

@@ -1,5 +1,5 @@
 """
-This file if containing selection sort algorithm.
+This file if contained selection sort algorithm.
 Selection sort has been implemented in the most optimal way.
 """
 
@@ -7,7 +7,7 @@ Selection sort has been implemented in the most optimal way.
 def selection_sort(value: list) -> list:
     """
     This function sort python list using the selection sort algorithm.
-    Selection sort algorithm has asymptotic like O(n^2) in the worst.
+    This algorithm is working with O(n^2) asymptotic.
     :param value: input list with any python types
     :return: new list
     """

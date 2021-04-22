@@ -1,5 +1,5 @@
 """
-This file is containing insertion sort algorithm.
+This file is contained insertion sort algorithm.
 Insertion sort has been implemented in the most optimal way.
 """
 
@@ -7,7 +7,7 @@ Insertion sort has been implemented in the most optimal way.
 def insertion_sort(value: list) -> list:
     """
     This function sort python list using the insertion sort algorithm.
-    Insertion sort algorithm has asymptotic like O(n^2) in the worst.
+    This algorithm is working with O(n^2) asymptotic.
     :param value: input list  with any python types
     :return: new list
     """

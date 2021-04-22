@@ -1,13 +1,13 @@
 import unittest
 
 """
-This file is containing function that check string to palindrome.
+This file is contained function that check string to palindrome.
 """
 
 
 def is_palindrome(s: str) -> bool:
     """
-    This function is realizing check to palindrome algorithm in the best.
+    This function is realizing algorithm that check string  to palindrome.
     :param s: input string object
     :return: True or False
     """

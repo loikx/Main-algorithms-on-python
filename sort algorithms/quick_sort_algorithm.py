@@ -1,15 +1,15 @@
 """
-This file is containing two quick_sort functions.
+This file is contained two quick_sort functions.
 quck_sort_with_cycle is needed because its example makes it easier to understand the algorithm
 And quick_sort it's a recommended to use in real programs.
-Quick sort is a recursive sorting algorithm that sorts a list with asymptotic O (n ^ 2) worst case but O (n*logn) on average case.
+This algorithm is working with O (n ^ 2) asymptotic at worst case but O (n*logn) on average case.
 """
 
 
 def quick_sort_with_cycle(value: list) -> list:
     """
-    This function is realizing simple quick_sort algorithm.
-    Don't use this version in real programs because it's using append method and for cycles.
+    This feature is realizing by a simple quicksort algorithm.
+    Do not use this version in real programs because its much more slower
     :param value: input list with any python types
     :return: new list
     """
@@ -59,7 +59,7 @@ def quick_sort_with_cycle(value: list) -> list:
 
 def quick_sort(value: list) -> list:
     """
-    This function implements the quick sort algorithm at its best.
+    This function is containing the quick sort algorithm at its best.
     :param value: input list with any python types
     :return: new list
     """

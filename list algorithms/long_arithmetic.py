@@ -1,6 +1,6 @@
 """
 This file is contained function that add two nums with long add algorithm and some simple tests.
-This algorithm is working with O(n * m) time.
+This algorithm is working with O(n * m) asymptotic.
 """
 import unittest
 import random

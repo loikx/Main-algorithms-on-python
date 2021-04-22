@@ -1,5 +1,5 @@
 """
-This file is containing bubble sort algorithm.
+This file is contained bubble sort algorithm.
 Bubble sort has been implemented in the most optimal way.
 """
 
@@ -7,7 +7,7 @@ Bubble sort has been implemented in the most optimal way.
 def bubble_sort(value: list) -> list:
     """
     This function sort python list using the bubble sort algorithm.
-    Bubble sort algorithm has asymptotic like O(n^2) in the worst.
+    This algorithm is working with O(n^2) asymptotic.
     :param value: input list with any python types
     :return: new list
     """
