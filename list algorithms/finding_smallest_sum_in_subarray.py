@@ -5,7 +5,11 @@ This algorithm is worked with O(n) asymptotic.
 
 
 def max_summary_of_subarray(array: list[float]) -> float:
-
+    """
+    This algorithm is found maximum sum of elements of subarray.
+    :param array: list type object
+    :return: max sum of elements in subarray
+    """
     # check input value type
     if type(array) != list:
         # throw the error
