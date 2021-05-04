@@ -1,6 +1,8 @@
 # Main-algorithms-on-python
 This repository is contained ***all simple algorithms*** that **I know**.
 I hope that it will help you to learn programming algorithms.
+
+##WARNING:if you want to learn how work algorithm. That you need to open file that contains this algorithm.
 ## [Sort algorithms](https://github.com/loikx/Main-algorithms-on-python/tree/main/sort%20algorithms)
 ### 1.[Bubble sort](https://github.com/loikx/Main-algorithms-on-python/blob/main/sort%20algorithms/bubble_sort_algorithm.py)
 >This is the simplest sorting algorithm in my mind.
@@ -23,7 +25,7 @@ And it's one of the most simple sort algorihms in my mind.
 This is in the quick_sort_algorihm.py
 /sort algorithms/quick_sort_algorithm.py
 ### 5.[Merge sort](https://github.com/loikx/Main-algorithms-on-python/blob/main/sort%20algorithms/merge_sort_algorithm.py)
->This is difficult but fast sort algorihm.
+>This is difficult but fast sort algorithm.
 Merge sort algorithm is working with **O(nlogn)** asymptotic in worst.
 This is in the merge_sort_algorithm.py
 /sort algorithms/merge_sort_algorithm.py
@@ -38,8 +40,14 @@ If you want to test sort algorithm that you write or me realized
 
 ## [String algorithms](https://github.com/loikx/Main-algorithms-on-python/tree/main/string%20algorithms)
 ### 1.[Is palindrome](https://github.com/loikx/Main-algorithms-on-python/blob/main/string%20algorithms/is_palindrome_string_algorithm.py)
->
+>This is a simple algorithm that checks a string against a palindrome.
+/string algorithms/is_palindrome_string_algorithm.py
+It's working with O(n) asymptotic.
 ### 2.[Principe of complementarity](https://github.com/loikx/Main-algorithms-on-python/blob/main/string%20algorithms/principle_of_complementarity.py)
->
+>This is a simple function that translate dnk to rnk.
+/string algorithms/principe_of_complementarity.py
+It's working with O(n) asymptotic.
 ### 3.[Roman numerals to arabic](https://github.com/loikx/Main-algorithms-on-python/blob/main/string%20algorithms/roman_numerals_to_arabic_algorithm.py)
->
+>This an interesting algorithm that translate roman numerals to arabic.
+/string algorithms/roman_numerals_to_arabic_algorithm.py
+It's working with O(n) asymptotic.
