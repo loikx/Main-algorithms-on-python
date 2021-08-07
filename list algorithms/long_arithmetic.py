@@ -26,23 +26,10 @@ def add_two_numbers(array1: list[int], array2: list[int]) -> list[int]:
         return array1 + array2
 
     # check type of elements into array1 and array2
-    try:
-        # check two lists
-        if type(array2[0]) != int or type(array1[0]) != int:
-            # throw the exception
-            raise ValueError('list values is not int type')
-    # catch the error
-    except IndexError:
-        # check array1
-        if len(array1) == 0:
-            if type(array2[0]) != int:
-                # throw the exception
-                raise ValueError('list values is not int type')
-        # check array2
-        else:
-            if type(array1[0]) != int:
-                # throw the exception
-                raise ValueError('list values is not int type')
+    # check two lists
+    if type(array2[0]) != int or type(array1[0]) != int:
+        # throw the exception
+        raise ValueError('list values is not int type')
 
     # create new list
     ans = [0] * (max(len(array1), len(array2)) + 1)
@@ -133,5 +120,3 @@ class TestCases(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-

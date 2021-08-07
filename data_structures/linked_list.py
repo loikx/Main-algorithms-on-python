@@ -193,56 +193,6 @@ class LinkedList:
 
         raise IndexError("Index does not exists")
 
-    def reverseBetween(self, head, m, n):
-
-        if (m == n):
-            return head
-
-        # revs and revend is start and end respectively
-        # of the portion of the linked list which
-        # need to be reversed. revs_prev is previous
-        # of starting position and revend_next is next
-        # of end of list to be reversed.
-        revs = None
-        revs_prev = None
-        revend = None
-        revend_next = None
-
-        # Find values of above pointers.
-        i = 1
-        curr = head
-
-        while (curr and i <= n):
-            if (i < m):
-                revs_prev = curr
-
-            if (i == m):
-                revs = curr
-
-            if (i == n):
-                revend = curr
-                revend_next = curr.next
-
-            curr = curr.next
-            i += 1
-
-        revend.next = None
-
-        # Reverse linked list starting with
-        # revs.
-        revend = LinkedList.reverse(revs)
-
-        # If starting position was not head
-        if (revs_prev):
-            revs_prev.next = revend
-
-        # If starting position was head
-        else:
-            head = revend
-
-        revs.next = revend_next
-        return head
-
 
 def create_linked_list(lst):
     if len(lst) == 0:
